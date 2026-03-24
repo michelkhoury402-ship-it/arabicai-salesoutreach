@@ -1,5 +1,4 @@
-async function callClaude(system, user, useSearch = false, maxTokens = 1500) {
-  const body = { import { useState } from "react";
+import { useState } from "react";
 
 const RESEARCHER_PROMPT = `You are a B2B research analyst. Research the target company using web search. Return ONLY valid JSON, no markdown, no backticks:
 {
@@ -401,9 +400,4 @@ export default function App() {
       </div>
     </div>
   );
-} };
-  const res = await fetch("/api/claude"), {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
+}
